@@ -1,0 +1,300 @@
+ /* Main section styling */
+ body{
+    background-color: white;
+ }
+ .what-our-clients-say-about-us {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #333;
+    width: 695px;
+height: 60px;
+top: 3560px;
+left: 120px;
+gap: 0px;
+opacity: 0px;
+margin-left: 65px;
+}
+
+/* Container for the main content */
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    
+    
+    border-radius: 8px;
+   
+    
+}
+
+/* Left and right rectangles */
+.rectangle-310, .rectangle-309 {
+    width: 20px;
+    height: 100%;
+    background-color: #ccc;
+}
+
+/* Container for the content inside the main box */
+.container-18 {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    
+    width: 1200px;
+height: 223px;
+top: 3655px;
+left: 120px;
+gap: 0px;
+border-radius: 10px 100px 10px 10px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+/* Styling for the main text */
+.enablens-engineering-contributions-have-allowed-us-to-significantly-scale-and-simplify-our-training-and-workforce-development-initiatives-through-our-fully-customised-lms-solution-the-technology-responds-to-our-needs-as-opposed-to-implementing-something-off-the-shelf-that-we-would-be-forced-to-mould-our-operations-into-it-is-great-to-have-enablen-in-our-corner {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #555;
+    width: 1100px;
+height: 90px;
+top: 3705px;
+left: 170px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+/* Container for the image and text */
+.container-20 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Image styling */
+.image-1 {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url('../assets/image 1.png');
+}
+
+/* Container for the name and title */
+.container-13 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Name styling */
+.debra-burden {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Title styling */
+.chief-executive-officer-selectability-ltd {
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Group styling for additional lines (optional) */
+.group-1000003470 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+/* Line styling (optional) */
+.line-16, .line-17, .line-18, .line-19 {
+    width: 100px;
+    height: 2px;
+    background-color: #ddd;
+}
+
+
+
+.articles-news {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .articles-news h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  /* Content layout */
+  .content {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Big Card styling */
+  .big-card {
+    width: 590px;
+    height: 452px;
+    top: 4245px;
+    left: 120px;
+    gap: 0px;
+    border-radius: 10px 50px 10px 10px;
+    opacity: 0px;
+    
+  
+  }
+  
+  .big-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .big-card-content {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .big-card .date {
+    width: 77px;
+    height: 22px;
+    top: 4543px;
+    left: 142px;
+    gap: 0px;
+    opacity: 0.7px;
+    
+  }
+  
+  .big-card h2 {
+    margin-top: 10px;
+  }
+  
+  .big-card p {
+    width: 547px;
+  height: 58px;
+  top: 4575px;
+  left: 142px;
+  gap: 0px;
+  opacity: 0px;
+  
+  }
+  
+  /* Small Cards styling */
+  .small-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    
+  }
+  
+  .small-card {
+    display: flex;
+    background-color: white;
+    width: 473px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    
+  gap: 0px;
+  border-radius: 10px 50px 10px 10px;
+  opacity: 0px;
+  
+  }
+  .small-card p{
+    width: 327px;
+  height: 28px;
+  top: 4287px;
+  left: 946px;
+  gap: 0px;
+  opacity: 0px;
+  
+  }
+  
+  .small-card img {
+    width: 40%;
+    height: auto;
+  }
+  
+  .small-card-content {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .small-card .date {
+    width: 77px;
+    height: 22px;
+    top: 4260px;
+    left: 946px;
+    gap: 0px;
+    opacity: 0.7px;
+    
+  
+  }
+  
+  .small-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  /* Main Button styling */
+  .articles-news .main-button a{
+    width: Fixed (201px)px;
+  height: Fixed (56px)px;
+  top: 4747px;
+  left: 619px;
+  padding: 14px 28px 14px 28px;
+  gap: 10px;
+  border-radius: 6px 30px 6px 6px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  color: #1b1b1b;
+  }
+  .articles-news .main-button{
+    width: Fixed (201px)px;
+  height: Fixed (56px)px;
+  top: 4747px;
+  left: 619px;
+  padding: 14px 28px 14px 28px;
+  gap: 10px;
+  border-radius: 6px 30px 6px 6px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #06b300;
+  background-color: white;
+ 
+  }
+  .articles-news .main-button:hover{
+    text-decoration: none;
+    background-color: #06b300;
+  }
+  .articles-news .main-button a{
+    text-decoration: none;
+  }
+  
+  .text-with-dots {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .text-with-dots .dot::after {
+    content: "•";
+    margin: 0 10px;
+    color: green;
+  }
+  
+  

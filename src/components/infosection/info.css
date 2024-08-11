@@ -1,0 +1,132 @@
+
+.info-section {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+     /* Optional: add a border */
+    border-radius: 8px; /* Optional: add rounded corners */
+    gap: 49px; /* Adjust gap as needed */
+}
+
+.info-image {
+    width: 640px;
+    height: 446px;
+    top: 1278px;
+    left: 120px;
+    gap: 10px;
+    opacity: 0px;
+    /* Optional: add a slight shadow */
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.info-heading1 {
+    width: 251px;
+height: 60px;
+top: 1300px;
+left: 730px;
+gap: 0px;
+opacity: 0px;
+ /* Adjust gap as needed */
+}
+
+.info-text1 {
+    width: 586px;
+    height: 146px;
+    top: 1380px;
+    left: 730px;
+    gap: 10px;
+    opacity: 0px;
+    color: rgba(51, 51, 51, 0.8);
+    margin-right:12px ;
+    margin-top: 5%
+    /* Adjust gap as needed */
+}
+
+.info-more-btn {
+    width: Fixed (201px)px;
+height: Fixed (56px)px;
+top: 1628px;
+left: 730px;
+padding: 14px 28px 14px 28px;
+gap: 10px;
+border-radius: 6px 30px 6px 6px;
+border: 1px 0px 0px 0px;
+opacity: 1;
+background-color: white;
+
+
+border: 1px solid rgba(129, 194, 22, 1)
+}
+
+.nav-button1:hover{
+  border-bottom: 2px solid green;
+
+}
+.info-more-btn a{
+  color: rgb(49, 45, 45);
+  text-decoration: none;
+}
+.info-more-btn:hover{
+  background-color: #4CAF50;
+}
+.button-container1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+    border: 2px 0px 0px 0px;
+    border-radius : 6px 30px 6px 6px;
+    padding: 12px;
+    margin-left: 50px;
+    margin-right: 40px;
+    opacity: 0px;
+    background-color: white;
+    border: 1px solid rgb(233, 227, 227)
+}
+
+.nav-button1 {
+    width: 269px;
+height: 20px;
+top: 2078px;
+left: 279px;
+gap: 0px;
+opacity: 0px;
+border: none;
+width: 198px;
+height: 28px;
+top: 2078px;
+left: 314px;
+gap: 0px;
+opacity: 0px;
+background-color: white;
+color: black;
+    /* Adjust color as needed */
+}
+.nav-button1:hover{
+ border-bottom: 2px solid #4CAF50;
+  
+}
+.nav-button1::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    background-color: green;
+    position: absolute;
+    bottom: -5px; /* Adjust for desired distance from button */
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-button1.active::after {
+    width: 100%;
+    text-decoration: line-through;
+    color:green;
+}

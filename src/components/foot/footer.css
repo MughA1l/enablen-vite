@@ -1,0 +1,531 @@
+.body{
+    background-color: white;
+}
+.group-1000003466 {
+    border-radius: 10px;
+    background: #333333;
+    position: relative;
+    margin: 0 121px 60px 33px;
+    display: flex;
+    padding: 60px 51px 60px 49px;
+    width: 1199px;
+    box-sizing: border-box;
+    background-image: url('../assets/Group8448.png');
+    width: 1199px;
+height: 316px;
+gap: 0px;
+border-radius: 10px 100px 10px 10px;
+opacity: 0px;
+
+
+  }
+   .mask-group {
+    border-radius: 10px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 669px;
+    height: 291px;
+  }
+  .group-18448 {
+    /* opacity; */
+    position: absolute;
+    top: -318.5px;
+    right: -166.9px;
+    width: 731.1px;
+    height: 693.7px;
+     animation: rotate-image 5s linear infinite; 
+  }
+@keyframes rotate-image {
+    0% {
+        transform: rotate(0deg);
+        border-left: 2px solid white;
+    }
+    50% {
+        transform: rotate(150.696deg);
+        border-left: 2px solid white;
+    }
+    100% {
+        transform: rotate(301.392deg);
+        border-left: 2px solid white;
+    }
+}
+   .group-1000003458 {
+    border-radius: 6px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1099px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+   .container-15 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+   .supporting-our-charities-nfps-small-businesses {
+    margin-bottom: 15px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+  }
+   .our-number-one-goal-is-to-help-our-clients-succeed-in-community-building-and-environmental-preservation-it-all-starts-here-with-us-working-together-to-give-back-to-the-world-with-every-project-we-work-on {
+    width: 568px;
+height: 71.9px;
+top: 5120.76px;
+left: 170px;
+gap: 0px;
+opacity: 0px;
+color: rgba(255, 255, 255, 0.8);
+
+  }
+  .frame-9 {
+    
+    
+    margin: 61px 0 54px 0;
+    display: flex;
+    padding: 18px 0.5px 18px 0;
+    width: 201px;
+    height: fit-content;
+    
+    border-radius: 
+    14px 28px 14px 28px;
+    box-sizing: border-box;
+  }
+   .book-acall-2 a{
+    width: Fixed (201px)px;
+  height: Fixed (55.93px)px;
+  top: 5073.83px;
+  left: 1028px;
+  padding: 14px 28px 14px 28px;
+  gap: 10px;
+  border-radius: 6px 30px 6px 6px;
+  opacity: 0px;
+  background: rgba(129, 194, 22, 1);
+  color: #ddd;
+  border-radius: 
+  14px, 28px, 14px, 28px;
+  text-decoration: none;
+  
+  }
+
+
+   .container-12 {
+    margin: 0 123.3px 5.6px 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 962.7px;
+    box-sizing: border-box;
+  }
+ .container-16 {
+    margin-bottom: 4.4px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .group-3 {
+    margin-bottom: 27.9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 226px;
+    box-sizing: border-box;
+  }
+  .group-3 p {
+    margin: -22px 3.5px 32px 22.9px;
+    width: 293.6px;
+    height: 3px;
+}
+  .container {
+    overflow-wrap: break-word;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: var(--gray-2, #4F4F4F);
+  }
+  .container {
+    margin: 0 2.3px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+ .phphone-thin {
+    margin: 3.2px 15.8px 2.8px 0;
+    display: flex;
+    width: 16px;
+    height: 16px;
+    box-sizing: border-box;
+  }
+ .vector-20 {
+    width: 12px;
+    height: 12px;
+    margin-left: -11px;
+  }
+  .container-26 {
+    margin-bottom: 0.4px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+   .links {
+    margin: 0 14.7px 30px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--gray-1, #333333);
+  }
+  .home-1 a{
+    margin: 0 19.6px 17.6px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: var(--gray-2, #4F4F4F);
+  }
+   .blogs a{
+    margin-bottom: 18px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: var(--gray-2, #4F4F4F);
+  }
+  .about-us-1 a{
+    overflow-wrap: break-word;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: var(--gray-2, #4F4F4F);
+  }
+   .group-1000003460 {
+    margin-right: 120.3px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+   .our-solutions-1 {
+    margin: 0 16.8px 30px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--gray-1, #333333);
+  }
+   .grant-writing-1 {
+    margin-bottom: 18px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: var(--gray-2, #4F4F4F);
+  }
+  .website-developemnt {
+    margin-bottom: 18px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: var(--gray-2, #4F4F4F);
+  }
+ .elearning-1 {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: var(--gray-2, #4F4F4F);
+  }
+ .group-1000003461 {
+    margin-bottom: 0.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .resources {
+    margin-bottom: 30px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--gray-1, #333333);
+  }
+  .our-imapact {
+    margin: 0 15.8px 17.6px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: var(--gray-2, #4F4F4F);
+  }
+   .privacy-policy {
+    margin: 0 8.3px 18px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: var(--gray-2, #4F4F4F);
+  }
+   .terms-of-use {
+    margin-right: 11.2px;
+    overflow-wrap: break-word;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: var(--gray-2, #4F4F4F);
+  }
+   .container-2 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+   .container-23 {
+    margin: 0 121.8px 66.4px 121.8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 681.4px;
+    box-sizing: border-box;
+  }
+   .container-27 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+   .container-5 {
+    margin: 4.7px 15.8px 1.8px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 12.5px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .phenvelope-simple-thin {
+    margin-bottom: 16.5px;
+    display: flex;
+    width: 16px;
+    height: 16px;
+    box-sizing: border-box;
+  }
+ .vector-18 {
+    width: 12.5px;
+    height: 9.5px;
+  }
+   .phmap-pin-thin {
+    margin: 0 1px;
+    display: flex;
+    width: 16px;
+    height: 16px;
+    box-sizing: border-box;
+  }
+   .vector-19 {
+    width: 10.5px;
+    height: 13.5px;
+  }
+ .container-14 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+ .adminenablen-com-au {
+    margin-bottom: 10px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: lowercase;
+    color: var(--gray-2, #4F4F4F);
+  }
+   .charters-towers-rd-mysterton-qld-4812 {
+    overflow-wrap: break-word;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: var(--gray-2, #4F4F4F);
+  }
+   .contect a{
+    margin: 4px 18px 14px 1px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: var(--gray-2, #4F4F4F)
+     
+   }
+   .vector-184 {
+    opacity: 0.1;
+    margin: 0 120px 30px 120px;
+    width: 1200px;
+    height: 0px;
+  }
+  .container-7 {
+    margin: 0 122.2px 0 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1197.8px;
+    box-sizing: border-box;
+    
+  }
+   .copyright-2022-enablen-pty-ltd-all-rights-reserved {
+    margin: 8px 7.5px 7px 0;
+    display: inline-block;
+    width: 305px;
+    overflow-wrap: break-word;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: var(--gray-2, #4F4F4F);
+  }
+  .social-icon {
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    box-sizing: border-box;
+  }
+   .goggle {
+  
+    border-radius: 50%;
+    background: #ffffff;
+    position: relative;
+    margin-right: 15px;
+    display: flex;
+    padding: 9.2px 11.7px 10px 11.7px;
+    width: 40px;
+    height: 30px;
+    box-sizing: border-box;
+   
+    border: 1px solid rgba(51, 51, 51, 0.8)
+
+  }
+   .vector-14 {
+    width: 10.7px;
+    height: 10.8px;
+    color: rgba(51, 51, 51, 0.8);
+
+  }
+  .icon {
+    opacity: 0.1;
+    border-radius: 15px;
+    background: #4F4F4F;
+    position: relative;
+    margin-right: 15px;
+    display: flex;
+    padding: 9.8px 9.2px 9.3px 9.3px;
+    width: 30px;
+    box-sizing: border-box;
+  }
+   .group-1000003464 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 11.5px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .fill-182 {
+    margin: 0 8.6px 0.7px 0;
+    width: 2.8px;
+    height: 2.6px;
+  }
+   .container-11 {
+    margin-left: 0.3px;
+    display: flex;
+    flex-direction: row;
+    width: 11.1px;
+    box-sizing: border-box;
+  }
+   .fill-183 {
+    background: var(--gray-1, white);
+    margin: 0.3px 1px 0 0;
+    width: 2.5px;
+    height: 7.3px;
+    border: 1px solid rgba(51, 51, 51, 0.8)
+  }
+   .fill-184 {
+    margin-bottom: 0.1px;
+    width: 7.6px;
+    height: 7.5px;
+    color: rgba(51, 51, 51, 0.8);
+  }
+   .instagram-icon {
+    width: 11.5px;
+    height: 11.5px;
+  }
+  .home .instagram {
+ 
+    border-radius: 15px;
+    background: #818181;
+    color: white;
+    position: relative;
+    display: flex;
+    padding: 9.2px 9.4px 9.4px 9.2px;
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+  }
+  .qassure-no-23444 {
+    margin: 1px 0 14px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: var(--gray-2, #4F4F4F);
+    gap: 0px;
+  }
+ .abn-72647388636 {
+  
+   padding-left: -330%;
+    font-family: 'Plus Jakarta Sans';
+    
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: var(--gray-2, #4F4F4F);
+    gap: 0px;
+    
+  }

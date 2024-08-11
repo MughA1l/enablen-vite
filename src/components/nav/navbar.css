@@ -1,0 +1,263 @@
+
+  
+  header {
+      width: 100%;
+  }
+  
+  .navbar {
+      display: flex;
+      align-items: center;
+      background: rgba(51, 51, 51, 0.2);
+      border: 1px solid green;
+      border-radius:10px 40px 10px 10px ;
+      padding: -15px;
+      justify-content: space-between;
+      margin: -15%;
+      margin-left: 7%;
+      margin-top: 28px;
+      width: 866px;
+  height: 80px;
+  top: -5px;
+  left: 111px;
+  gap: 0px;
+  opacity: 0px;
+  z-index:3
+  
+  
+  
+  }
+  
+  .logo img {
+      width: 140px; 
+      padding: 10px;
+      margin-top: -14%;
+      opacity: 0.3px;/* Adjust width as needed */
+  }
+  
+  .nav-links {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: -59px;
+      align-items: center;
+      justify-content: center;
+      margin-top: -76px;
+  }
+  
+  .nav-links li {
+      position: relative;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .nav-links a {
+      color: #ffffff;
+      text-decoration: none;
+      padding: 6px 27px;
+      display: block;
+      
+  }
+  
+  .dropdown-menu {
+      display: none;
+      position: absolute;
+      top: 176%;
+      left: 0;
+      background-color:white;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+     
+      transition: border-color 0.3s ease; 
+    border: 1px solid rgba(129, 194, 22, 1);
+  border-radius: 10px 50px 10px 10px;
+  opacity: 1px;
+  
+  }
+  
+  .dropdown-menu li a {
+      padding: 10px 15px;
+      display: block;
+      color: black;
+      white-space: nowrap;
+  }
+  
+  .dropdown-menu li a:hover {
+    
+  border-left: 2px solid #06b300;
+  
+  
+  
+  }
+  
+  .dropdown:hover .dropdown-menu {
+      display: block;
+  }
+  
+  .nav-button {
+      width: Fixed (138px)px;
+      height: Hug (52px)px;
+      top: 36px;
+      left: 1162px;
+      padding: 14px 28px 14px 28px;
+      gap: 10px;
+      border: 1px solid  rgba(129, 194, 22, 1);;
+      border-radius: 6px 20px 6px 6px;
+      opacity: 0px;
+      background: rgba(129, 194, 22, 1);
+      margin: 2%;
+      padding: 1%;
+      margin-top: -6px;
+  
+      
+  }
+  
+  .nav-button:hover {
+      background-color:  rgba(129, 194, 22, 1);;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+      .nav-links {
+          display: none;
+          flex-direction: column;
+          width: 100%;
+      }
+  
+      .nav-links.active {
+          display: flex;
+      }
+  
+      .nav-button {
+          position: static;
+          margin-top: 10px;
+      }
+  
+      .navbar {
+          flex-direction: column;
+          align-items: flex-start;
+      }
+  }
+  
+  /* carousel */
+  /* Ensure the carousel is above the navbar */
+  .carousel slide {
+      position: relative;
+      z-index: 1; /* Higher z-index to ensure it’s above the navbar */
+  }
+  
+  /* Carousel item styling */
+  .carousel-item img {
+      width: 100%;
+      height: 103vh;
+      object-fit: cover;
+      
+  }
+  
+  .carousel-item::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(26, 25, 25, 0.5); /* Adjust the opacity as needed for the shadow effect */
+      z-index: 0; /* Ensure the overlay is above the image but below the caption */
+  }
+  /* Carousel caption styling */
+  .carousel-caption {
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+      /* Remove or adjust text-shadow to eliminate blur effect */
+      text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.7);
+      z-index: 2;
+      opacity: 1;
+  }
+  
+  
+  /* Styling for heading in carousel caption */
+  .carousel-caption h1 {
+      width: 413px;
+      height: 60px;
+      top: 255px;
+      left: 513px;
+      gap: 0px;
+      opacity: 0px;
+      white-space: nowrap;
+      color: rgba(129, 194, 22, 1);
+    align-items: center;
+    text-align: center;
+  }
+  .carousel-caption h2{
+      width: 435px;
+  height: 49px;
+  top: 317px;
+  left: 171px;
+  gap: 0px;
+  opacity: 0px;
+  color: white;
+  white-space: nowrap;
+  align-items: center;
+  text-align: center;
+  margin-left: -33px;
+  }
+  
+  /* Styling for paragraph in carousel caption */
+  .carousel-caption p {
+      width: 430px;
+      height: 73px;
+      top: 405px;
+      left: 404px;
+      gap: 0px;
+      opacity: 0px;
+  color: #fff;    
+  }
+  
+  /* Styling for button in carousel caption */
+  .carousel-caption .btn {
+      width: Fixed (201px)px;
+      height: Fixed (56px)px;
+      top: 501px;
+      left: 600px;
+      padding: 14px 28px 14px 28px;
+      gap: 10px;
+      border-radius: 6px 30px 6px 6px;
+      border: 1px 0px 0px 0px;
+      opacity: 0px;
+      background: rgba(51, 51, 51, 0.5);
+     border: 1px solid rgba(129, 194, 22, 1) ; 
+     margin-left: -11%;   
+  }
+  .carousel-caption .btn:hover{
+    background-color: #06b300;
+  }
+  /* Button styling */
+  .carousel-caption .btn a {
+      height: 23px;
+      width: 178px;
+      border-radius: 30px;
+      position: relative; /* Changed to relative for correct positioning */
+      gap: 23%;
+      display: grid;
+      color: #fff;
+      place-content: center;
+      font-weight: 600;
+      font-size: 19px;
+      text-transform: uppercase;
+      text-decoration: none;
+      box-sizing: border-box;
+      background-size: 400%;
+      cursor: pointer;
+      letter-spacing: 2px;
+  }
+  
+  
+  /* Remove text-shadow on hover to eliminate blur effect */
+  .carousel-caption p:hover {
+      text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.7);
+  }
