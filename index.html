@@ -6,43 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="sty.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="home.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- Remove if not used: <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
     <title>Enablen + vite</title>
   </head>
   <body>
     <div id="root"></div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" defer></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
     
-        <script>
-          document.addEventListener('DOMContentLoaded', function() {
-            // Navigation active link
-            const list = document.querySelectorAll('.navigation ul li');
-            function activeLink() {
-                list.forEach((item) => {
-                    item.classList.remove('active');
-                });
-                this.classList.add('active');
-            }
-            list.forEach((item) => {
-                item.addEventListener('click', activeLink);
-            });
-    
-            // Slick carousel initialization
-            $(document).ready(function(){
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Navigation active link
+        const list = document.querySelectorAll('.navigation ul li');
+        function activeLink() {
+          list.forEach((item) => item.classList.remove('active'));
+          this.classList.add('active');
+        }
+        list.forEach((item) => item.addEventListener('click', activeLink));
+
+        // Slick carousel initialization
+        $(document).ready(function(){
           $('.carousel1').slick({
               dots: true, // Show dots for navigation
               infinite: true, // Infinite loop
@@ -53,67 +47,52 @@
               autoplaySpeed: 2000 // Autoplay speed in milliseconds
           });
       });
-    
-            // Navigation toggle button
-            const navButton = document.querySelector('.nav-button');
-            const navLinks = document.querySelector('.nav-links');
-            if (navButton) {
-                navButton.addEventListener('click', () => {
-                    navLinks.classList.toggle('active');
-                });
-            }
-    
-            document.addEventListener('DOMContentLoaded', () => {
-        const slides = document.querySelectorAll('.carousel slide');
+
+        // Navigation toggle button
+        const navButton = document.querySelector('.nav-button');
+        const navLinks = document.querySelector('.nav-links');
+        if (navButton) {
+          navButton.addEventListener('click', () => navLinks.classList.toggle('active'));
+        }
+
+        // Carousel slide functionality
+        const slides = document.querySelectorAll('.carousel .slide');
         const indicators = document.querySelectorAll('.indicator');
         let currentSlide = 0;
-    
+
         function showSlide(index) {
-            if (index >= slides.length) {
-                currentSlide = 0;
-            } else if (index < 0) {
-                currentSlide = slides.length - 1;
-            } else {
-                currentSlide = index;
-            }
-    
-            const offset = -currentSlide * 100;
-            document.querySelector('.carousel').style.transform = `translateX(${offset}%)`;
-    
-            indicators.forEach((indicator, i) => {
-                indicator.classList.toggle('active', i === currentSlide);
-            });
+          if (index >= slides.length) currentSlide = 0;
+          else if (index < 0) currentSlide = slides.length - 1;
+          else currentSlide = index;
+
+          const offset = -currentSlide * 100;
+          document.querySelector('.carousel').style.transform = `translateX(${offset}%)`;
+
+          indicators.forEach((indicator, i) => indicator.classList.toggle('active', i === currentSlide));
         }
-    
+
         indicators.forEach((indicator, i) => {
-            indicator.addEventListener('click', () => showSlide(i));
+          indicator.addEventListener('click', () => showSlide(i));
         });
-    
-        setInterval(() => showSlide(currentSlide + 1), 1000); // Auto-slide every 3 seconds
-    
-        // Initial display
+
+        setInterval(() => showSlide(currentSlide + 1), 3000); // Auto-slide every 3 seconds
         showSlide(currentSlide);
-    });
-    
-    
-            // Nav button active state
-            document.querySelectorAll('.nav-button').forEach(button => {
-                button.addEventListener('click', () => {
-                    document.querySelectorAll('.nav-button').forEach(btn => btn.classList.remove('active'));
-                    button.classList.add('active');
-                });
-            });
-    
-            // Start rotation animation
-            function startRotation() {
-                const image = document.querySelector('.group-18448');
-                image.style.animationPlayState = 'running';
-            }
+
+        // Nav button active state
+        document.querySelectorAll('.nav-button').forEach(button => {
+          button.addEventListener('click', () => {
+            document.querySelectorAll('.nav-button').forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
           });
-    
-    
-          
-        </script>
+        });
+
+        // Start rotation animation
+        function startRotation() {
+          const image = document.querySelector('.group-18448');
+          if (image) image.style.animationPlayState = 'running';
+        }
+      });
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

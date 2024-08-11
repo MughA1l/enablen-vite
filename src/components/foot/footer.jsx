@@ -1,8 +1,8 @@
 import React from 'react'
 import '../foot/footer.css';
-import img1 from '../assets/ph_phone-thin.png';
-import img2 from '../assets/ph_envelope-simple-thin.png';
-import img3 from '../assets/ph_map-pin-thin.png';
+import img1 from '../assets/phphonethin.png';
+import img2 from '../assets/phenvelopesimplethin.png';
+import img3 from '../assets/phmappinthin.png';
 import insta from '../assets/instagram icon.png';
 import group11 from '../assets/Vector.png';
 import group100 from '../assets/Group 1000003464.png';
